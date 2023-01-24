@@ -16,7 +16,7 @@
 }
 
 .banner-info {
-    
+
 }
 
 .input-group {
@@ -32,16 +32,16 @@
 }
 
 .carousel-img-2 {
-    background-image: url("../images/banner.png");
-    height: 100vh;
-}
-
-.carousel-img-3 {
     background-image: url("../images/slider-3.jpg");
     height: 100vh;
 }
 
-.img {
+.carousel-img-3 {
+    background-image: url("../images/slider-1.jpg");
+    height: 100vh;
+}
+
+img {
     width: 75px;
     height: 75px;
     border: 2px solid #FFFFFF;
