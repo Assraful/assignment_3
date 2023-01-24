@@ -41,17 +41,22 @@
     height: 100vh;
 }
 
-img {
-    width: 75px;
-    height: 75px;
-    border: 2px solid #FFFFFF;
+/* img{
+    width: 570px;
+    height: 574px;
+    border: 1px solid #FFFFFF;
     border-radius: 100%;
+} */
+
+/* FAQ section styling */
+
+.faq-img{
+    width: 570px;
+    height: 576px;
 }
-
-
 /*Mobile device*/
 
-@media only screen and (max-width:576px) {
+/* @media only screen and (max-width:576px) {
 
     .container {
         width: 100%;
@@ -67,4 +72,4 @@ img {
         flex-direction: column;
     }
 
-}
+} */
