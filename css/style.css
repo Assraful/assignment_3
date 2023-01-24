@@ -1,21 +1,70 @@
-.carousel-img-1{
-   background-image: url("../images/slider-1.jpg");
-   height: 100vh; 
+/* navbar styling  */
+.nav {
+    display: flex;
 }
-.carousel-img-2{
+
+.nav ul a {
+    text-decoration: none;
+
+}
+
+/* banner section styling */
+
+.banner-img {
     background-image: url("../images/banner.png");
     height: 100vh;
 }
-.carousel-img-3{
+
+.banner-info {
+    
+}
+
+.input-group {
+    background: #B68C5A;
+    border-radius: 8px;
+}
+
+/* .carousel section styling from here */
+
+.carousel-img-1 {
+    background-image: url("../images/slider-1.jpg");
+    height: 100vh;
+}
+
+.carousel-img-2 {
+    background-image: url("../images/banner.png");
+    height: 100vh;
+}
+
+.carousel-img-3 {
     background-image: url("../images/slider-3.jpg");
     height: 100vh;
 }
 
-.text-center img{
+.img {
     width: 75px;
     height: 75px;
     border: 2px solid #FFFFFF;
     border-radius: 100%;
 }
-    
 
+
+/*Mobile device*/
+
+@media only screen and (max-width:576px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .navbar {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .nav {
+        flex-direction: column;
+    }
+
+}
