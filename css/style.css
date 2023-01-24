@@ -41,6 +41,12 @@
     height: 100vh;
 }
 
+.carousel-img-info{
+    width: 570px;
+    height: 574px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+}
 /* img{
     width: 570px;
     height: 574px;
@@ -54,21 +60,28 @@
     width: 570px;
     height: 576px;
 }
+
+/* Contact us section */
+.btn{
+    background: #B68C5A;
+    border-radius: 8px;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
 /*Mobile device*/
 
 /* @media only screen and (max-width:576px) {
 
-    .container {
-        width: 100%;
-    }
-
-    .navbar {
-
+    .container, .form-container {
         grid-template-columns: repeat(1, 1fr);
+        
     }
 
-
-    .nav {
+    input{
         flex-direction: column;
     }
 
